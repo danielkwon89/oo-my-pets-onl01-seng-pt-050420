@@ -53,4 +53,5 @@ class Owner
   
   def feed_cats
     self.cats.map{|cat| cat.mood = "happy"}
+  end
 end
