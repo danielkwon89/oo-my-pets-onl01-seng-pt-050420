@@ -56,6 +56,7 @@ class Owner
   end
   
   def self_pets
-    
+    self.dogs.map{|dog| dog.mood = "nervous"}
+    self.cats.map{|cat| cat.mood = "nervous"}
   end
 end
