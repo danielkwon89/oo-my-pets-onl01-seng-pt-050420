@@ -55,7 +55,7 @@ class Owner
     self.cats.map{|cat| cat.mood = "happy"}
   end
   
-  def self_pets
+  def sell_pets
     self.dogs.map{|dog| dog.mood = "nervous"}
     self.cats.map{|cat| cat.mood = "nervous"}
   end
