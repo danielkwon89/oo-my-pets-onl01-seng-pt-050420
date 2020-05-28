@@ -48,6 +48,6 @@ class Owner
   end
   
   def walk_dogs
-    
+    self.dogs.map{|dog| dog.mood = "happy" if dog.owner == self}
   end
 end
